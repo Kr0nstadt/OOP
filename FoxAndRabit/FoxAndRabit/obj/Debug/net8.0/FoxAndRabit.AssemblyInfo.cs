@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoxAndRabit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5f8b3db068ccd5fec6130d847eb950537d3c0f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoxAndRabit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoxAndRabit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

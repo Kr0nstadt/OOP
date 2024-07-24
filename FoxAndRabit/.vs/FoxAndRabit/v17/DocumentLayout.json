@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\",
+  "WorkspaceRootPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\foxandrabit\\foxandrabit\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\foxandrabbits\\foxandrabit\\foxandrabit\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\foxandrabit\\foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\foxandrabbits\\foxandrabit\\foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\foxandrabit\\foxandrabit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\foxandrabbits\\foxandrabit\\foxandrabit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Rabbit.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Rabbit.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
               "RelativeToolTip": "FoxAndRabit\\Rabbit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T15:47:34.652Z",
               "EditorCaption": ""
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Animals.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Animals.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Animals.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Animals.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Animals.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Animals.cs",
               "RelativeToolTip": "FoxAndRabit\\Animals.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:08:07.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T15:08:07.623Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Program.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Program.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\FoxAndRabit\\FoxAndRabit\\Program.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\FoxAndRabbits\\FoxAndRabit\\FoxAndRabit\\Program.cs",
               "RelativeToolTip": "FoxAndRabit\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:06:57.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T15:06:57.246Z"
             }
           ]
         }
