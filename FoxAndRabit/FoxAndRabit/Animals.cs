@@ -28,6 +28,11 @@ namespace FoxAndRabit
         public abstract void Movement();
         public abstract Animals Reproduction();
 
+        public bool IsAlive
+        {
+            get { return life; }
+        }
+
         protected void Derection()
         {
             direction++;

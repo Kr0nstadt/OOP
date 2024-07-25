@@ -35,21 +35,17 @@ namespace FoxAndRabit
                 default:
                     break;
             }
+            x = NewX; y = NewY;
             //нужно еще метод в моделе, что б оно их на другую сторону перекидывало если выход за границы
         }
         public override Animals Reproduction()
         {
             return new Rabbit(stability, x, y, direction);
         }
-        public bool IsAlive
-        {
-            get { return life; }
-            set { life = value; }
-        }
+
         public int Year//что б рожали вовремя
         {
             get { return year; }
-            set { year = value; }
         }
     }
 }
