@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal class Fox : Animals,IComparable<Fox>
+    internal class Fox : Animals,IComparable<Fox>, CanEat
     {
         private int CountEat = 0;
         private int val = 0;

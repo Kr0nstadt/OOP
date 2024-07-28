@@ -13,7 +13,7 @@ namespace FoxAndRabit
         {
             animals = new List<Animals>();
         }
-        private void Iteration()
+        public void Iteration()
         {
             List<Rabbit> rabbit = new List<Rabbit>();
             List<Fox> fox = new List<Fox>();
@@ -36,7 +36,7 @@ namespace FoxAndRabit
                     fox[i].Aging();
                     if (!fox[i].IsAlive)
                     {
-                        animals.Remove(fox[i]);
+                        RemoveAnimalse(fox[i]);
                         fox.Remove(fox[i]); 
                     }
                 }
@@ -63,16 +63,25 @@ namespace FoxAndRabit
                     rabbit[i].Movement();
                     if (!rabbit[i].IsAlive)
                     {
-                        animals.Remove(rabbit[i]);
+                        RemoveAnimalse(rabbit[i]);
                     }
                     else (rabbit[i].Year == 5 || rabbit[i].Year == 10){
-                        animals.Add(rabbit[i].Reproduction());
+                        SetAnimals(rabbit[i].Reproduction());
                     }
                     rabbit[i].Aging();
                 }
             }
         }
 
+        public void SetAnimals(Animals a)
+        {
+            animals.Add(a);
+        }
+
+        public void RemoveAnimalse(Animals a)
+        {
+            animals.Remove(a);
+        }
         private Fox MaxFox(List<Fox> fox)
         {
             fox.Sort();

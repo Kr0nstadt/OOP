@@ -32,6 +32,14 @@ namespace FoxAndRabit
         {
             get { return life; }
         }
+        public int Y
+        {
+            get { return y; }
+        }
+        public int X
+        {
+            get { return x; }
+        }
 
         protected void Derection()
         {
