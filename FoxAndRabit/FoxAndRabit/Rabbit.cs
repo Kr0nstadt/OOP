@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal class Rabbit : Animals
+    public class Rabbit : Animals
     {
         public Rabbit(int stability, int x, int y, int direction) : 
             base(stability, x, y, direction) { }

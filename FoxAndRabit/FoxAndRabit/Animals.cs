@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal abstract class Animals
+    public abstract class Animals
     {
         protected int year;
         protected int stability;

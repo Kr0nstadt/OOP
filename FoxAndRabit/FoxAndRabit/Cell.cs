@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal class Cell
+    public class Cell
     {
         private List<Animals> animals;
         public List<Animals> list => animals;
-        //public int CountAnimalse => animals.Count;
         public Cell()
         {
             animals = new List<Animals>();

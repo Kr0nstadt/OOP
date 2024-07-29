@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal class Field
+    public class Field
     {
         private List<Cell> field;
         private int n;
