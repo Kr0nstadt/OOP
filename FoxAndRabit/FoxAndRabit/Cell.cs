@@ -9,6 +9,8 @@ namespace FoxAndRabit
     internal class Cell
     {
         private List<Animals> animals;
+        public List<Animals> list => animals;
+        //public int CountAnimalse => animals.Count;
         public Cell()
         {
             animals = new List<Animals>();
@@ -36,7 +38,7 @@ namespace FoxAndRabit
                     fox[i].Aging();
                     if (!fox[i].IsAlive)
                     {
-                        RemoveAnimalse(fox[i]);
+                        RemoveAnimals(fox[i]);
                         fox.Remove(fox[i]); 
                     }
                 }
@@ -63,9 +65,10 @@ namespace FoxAndRabit
                     rabbit[i].Movement();
                     if (!rabbit[i].IsAlive)
                     {
-                        RemoveAnimalse(rabbit[i]);
+                        RemoveAnimals(rabbit[i]);
                     }
-                    else (rabbit[i].Year == 5 || rabbit[i].Year == 10){
+                    else if (rabbit[i].Year == 5 || rabbit[i].Year == 10)
+                    {
                         SetAnimals(rabbit[i].Reproduction());
                     }
                     rabbit[i].Aging();
@@ -78,7 +81,7 @@ namespace FoxAndRabit
             animals.Add(a);
         }
 
-        public void RemoveAnimalse(Animals a)
+        private void RemoveAnimals(Animals a)
         {
             animals.Remove(a);
         }
