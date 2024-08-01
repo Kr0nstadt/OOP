@@ -41,9 +41,11 @@ namespace FoxAndRabit
                         fox.Remove(fox[i]); 
                     }
                 }
-                Fox AgeFox = MaxFox(fox);
-                if(rabbit.Count > 0)
+                Fox AgeFox;
+                if(fox.Count > 1 && rabbit.Count > 0)
                 {
+                    AgeFox = MaxFox(fox);
+
                     for(int i = 0;i < rabbit.Count; i++)
                     {
                         animals.Remove(rabbit[i]);
@@ -86,8 +88,8 @@ namespace FoxAndRabit
         }
         private Fox MaxFox(List<Fox> fox)
         {
-            fox.Sort();
-            return fox[0];
+                fox.Sort();
+                return fox[0];
         }
     }
 }

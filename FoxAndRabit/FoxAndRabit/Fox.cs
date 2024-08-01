@@ -9,7 +9,7 @@ namespace FoxAndRabit
     public class Fox : Animals,IComparable<Fox>, CanEat
     {
         private int CountEat = 0;
-        private static int val = 0;
+        public static int val = 0;
 
         public Fox(int stability, int x, int y, int direction) :
             base(stability, x, y, direction)

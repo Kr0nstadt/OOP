@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabittests\\foxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|solutionrelative:foxandrabittests\\foxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabittests\\celltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|solutionrelative:foxandrabittests\\celltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,16 +11,32 @@
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabittests\\foxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|solutionrelative:foxandrabittests\\foxtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabittests\\fieldtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5BF2067-182E-42E3-B9CA-72F2EA1BCF44}|FoxAndRabitTests\\FoxAndRabitTests.csproj|solutionrelative:foxandrabittests\\fieldtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\rabbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\oop\\oop\\foxandrabit\\foxandrabit\\caneat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,37 +58,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Cell.cs",
+              "RelativeDocumentMoniker": "FoxAndRabit\\Cell.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Cell.cs",
+              "RelativeToolTip": "FoxAndRabit\\Cell.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T15:01:59.512Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CellTests.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\CellTests.cs",
               "RelativeDocumentMoniker": "FoxAndRabitTests\\CellTests.cs",
               "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\CellTests.cs",
               "RelativeToolTip": "FoxAndRabitTests\\CellTests.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCMAAAABAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T16:51:31.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cell.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Cell.cs",
-              "RelativeDocumentMoniker": "FoxAndRabit\\Cell.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Cell.cs",
-              "RelativeToolTip": "FoxAndRabit\\Cell.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwBAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T15:01:59.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Field.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Field.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Field.cs",
@@ -96,38 +97,37 @@
               "RelativeToolTip": "FoxAndRabit\\Field.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T19:51:21.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T19:51:21.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FoxTests.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\FoxTests.cs",
               "RelativeDocumentMoniker": "FoxAndRabitTests\\FoxTests.cs",
               "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\FoxTests.cs",
               "RelativeToolTip": "FoxAndRabitTests\\FoxTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA3AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T15:57:35.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Fox.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Fox.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Fox.cs",
               "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Fox.cs",
               "RelativeToolTip": "FoxAndRabit\\Fox.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T13:51:23.798Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Animals.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Animals.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Animals.cs",
@@ -135,12 +135,11 @@
               "RelativeToolTip": "FoxAndRabit\\Animals.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:08:07.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T15:08:07.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ReadFile.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\ReadFile.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\ReadFile.cs",
@@ -148,21 +147,19 @@
               "RelativeToolTip": "FoxAndRabit\\ReadFile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T14:18:44.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T14:18:44.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FieldTests.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\FieldTests.cs",
               "RelativeDocumentMoniker": "FoxAndRabitTests\\FieldTests.cs",
               "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabitTests\\FieldTests.cs",
               "RelativeToolTip": "FoxAndRabitTests\\FieldTests.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB8AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T16:08:51.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T16:08:51.82Z"
             },
             {
               "$type": "Document",
@@ -178,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Rabbit.cs",
               "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Rabbit.cs",
               "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\OOP\\OOP\\FoxAndRabit\\FoxAndRabit\\Rabbit.cs",
               "RelativeToolTip": "FoxAndRabit\\Rabbit.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwA0AAAAeAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA6wA0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T15:47:34.652Z"
             },
