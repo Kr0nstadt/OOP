@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace FoxAndRabit
 {
-    internal class ReadFile
+    public class ReadFile
     {
         private List<Animals> animals = new List<Animals>();
         private int n;
         private int m;
+
+        public List<Animals> animalsfile => animals;
+        public int nfile => n;
+        public int mfile => m;
 
         public ReadFile()
         {

@@ -12,6 +12,7 @@ namespace FoxAndRabit
         private int n;
         private int m;
 
+        public List<Cell> Cells => field;
         public Field(int n,int m, List<Animals> animals)
         {
             for(int i = 0;i < animals.Count; i++)
@@ -20,6 +21,16 @@ namespace FoxAndRabit
             }
             this.n = n;
             this.m = m;
+        }
+        public Field(ReadFile read)
+        {
+            List<Animals> animalse = read.animalsfile;
+            for(int i = 0;i < animalse.Count; i++)
+            {
+                SetAnimals(animalse[i]);
+            }
+            this.m = read.mfile;
+            this.n = read.nfile;
         }
         private int Coordination(int x, int y)
         {

@@ -10,6 +10,8 @@ namespace FoxAndRabit
     {
         private List<Animals> animals;
         public List<Animals> list => animals;
+
+        public string CountAnimalse;
         public Cell()
         {
             animals = new List<Animals>();
@@ -18,6 +20,7 @@ namespace FoxAndRabit
         {
             List<Rabbit> rabbit = new List<Rabbit>();
             List<Fox> fox = new List<Fox>();
+            string countAnimalse = "";
             for(int i = 0; i < animals.Count; i++)
             {
                 if(animals[i] is Rabbit)
@@ -75,6 +78,7 @@ namespace FoxAndRabit
                     rabbit[i].Aging();
                 }
             }
+            countAnimalse = $"{fox.Count} / {rabbit.Count}";
         }
 
         public void SetAnimals(Animals a)
