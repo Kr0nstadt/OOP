@@ -19,7 +19,7 @@ namespace FoxAndRabit
 
         public ReadFile()
         {
-            string adress = "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\OOP\\OOP\\FoxAndRabit";
+            string adress = "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\OOP\\OOP\\FoxAndRabit\\text.txt";
             string[]lines = File.ReadAllLines(adress);
             string patternFirstLine = @"\d+";
             MatchCollection matches = Regex.Matches(lines[0], patternFirstLine);
@@ -30,11 +30,17 @@ namespace FoxAndRabit
             {
                 if (lines[i][0] == 'R')
                 {
-                    animals.Add(new Rabbit(lines[i][10], lines[i][4], lines[i][6], lines[i][8]));
+                    animals.Add(new Rabbit(Int32.Parse(lines[i][10].ToString()),
+                        Int32.Parse(lines[i][4].ToString()),
+                        Int32.Parse(lines[i][6].ToString()), 
+                        Int32.Parse(lines[i][8].ToString())));
                 }
                 if (lines[i][0] == 'F')
                 {
-                    animals.Add(new Fox(lines[i][10], lines[i][4], lines[i][6], lines[i][8]));
+                    animals.Add(new Fox(Int32.Parse(lines[i][10].ToString()),
+                        Int32.Parse(lines[i][4].ToString()),
+                        Int32.Parse(lines[i][6].ToString()),
+                        Int32.Parse(lines[i][8].ToString())));
                 }
             }
         }

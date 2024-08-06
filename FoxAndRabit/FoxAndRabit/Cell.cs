@@ -95,5 +95,9 @@ namespace FoxAndRabit
                 fox.Sort();
                 return fox[0];
         }
+        public override string ToString()
+        {
+            return CountAnimalse;
+        }
     }
 }
