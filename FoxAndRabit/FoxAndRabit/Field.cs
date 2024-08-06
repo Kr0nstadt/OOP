@@ -8,7 +8,7 @@ namespace FoxAndRabit
 {
     public class Field
     {
-        private List<Cell> field = new List<Cell>();
+        private List<Cell> field;
         private int n;
         private int m;
 
@@ -27,6 +27,11 @@ namespace FoxAndRabit
             ReadFile read = new ReadFile();
             this.m = read.mfile;
             this.n = read.nfile;
+            field = new List<Cell>();   
+            for(int i = 0; i < m * n; i++)
+            {
+                field.Add(new Cell());
+            }
             List<Animals> animals = read.animalsfile;
             for(int i = 0;i < animals.Count; i++)
             {
@@ -96,14 +101,14 @@ namespace FoxAndRabit
                 }
             }
         }
-        public override string ToString()
+        public string ToStringCert()
         {
             string txt = "";
             for(int i = 0; i < n; i++)
             {
                 for(int j = 0; j < m; j++)
                 {
-                    txt += field[i].ToString();
+                    txt += field[i].CountAnimalse;
                 }
                 txt += "\n";
             }

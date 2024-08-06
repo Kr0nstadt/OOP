@@ -11,10 +11,28 @@ namespace FoxAndRabit
         private List<Animals> animals;
         public List<Animals> list => animals;
 
-        public string CountAnimalse;
+        public string CountAnimalse => Counter();
         public Cell()
         {
             animals = new List<Animals>();
+        }
+        private string Counter()
+        {
+            int Fox = 0;
+            int Rabbit = 0;
+            for (int i = 0; i < animals.Count; i++)
+            {
+                if (animals[i] is Rabbit)
+                {
+                    Rabbit++;
+                }
+                else
+                {
+                    Fox++;
+                }
+            }
+            return $"{Fox}/{Rabbit} ";
+
         }
         public void Iteration()
         {
@@ -94,10 +112,6 @@ namespace FoxAndRabit
         {
                 fox.Sort();
                 return fox[0];
-        }
-        public override string ToString()
-        {
-            return CountAnimalse;
         }
     }
 }
