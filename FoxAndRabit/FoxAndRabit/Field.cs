@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,7 +54,7 @@ namespace FoxAndRabit
             {
                 y = y - m;
             }
-            return y*n + x;
+            return (y - 1) * n + (x - 1);
         }
         private int Coordination(Animals A)
         {
@@ -76,7 +77,7 @@ namespace FoxAndRabit
                     x = A.Y - this.m;
                 }
             }
-            return y * n + x;
+            return (y - 1) * n + (x - 1);
         }
 
         private void SetAnimalsField(Animals animals)
@@ -92,23 +93,34 @@ namespace FoxAndRabit
             {
                 field[i].Iteration();//меняет состояние каждой клетки
             }
+            List<Cell> cells = new List<Cell>();
+            
             for(int i = 0;i < field.Count; i++)
             {
-                List<Animals> ListAnimals = field[i].list;
-                for(int j = 0; j < ListAnimals.Count; j++)
+                cells.Add(new Cell());
+            }
+
+            foreach (Cell cell in field)
+            {
+                foreach (Animals animal in cell.list)
                 {
-                    SetAnimalsField(ListAnimals[j]);//меняет положение
+                    int index = Coordination(animal);
+                    cells[index].SetAnimals(animal);
                 }
             }
+
+            this.field = cells;
         }
         public string ToStringCert()
         {
             string txt = "";
+            
             for(int i = 0; i < n; i++)
             {
                 for(int j = 0; j < m; j++)
                 {
-                    txt += field[i].CountAnimalse;
+                    int index = Coordination(i, j);
+                    txt += field[index].CountAnimalse;
                 }
                 txt += "\n";
             }

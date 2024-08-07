@@ -19,7 +19,7 @@ namespace FoxAndRabit
 
         public ReadFile()
         {
-            string adress = "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\OOP\\OOP\\FoxAndRabit\\text.txt";
+            string adress = "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\OOP\\FoxAndRabit\\text.txt";
             string[]lines = File.ReadAllLines(adress);
             string patternFirstLine = @"\d+";
             MatchCollection matches = Regex.Matches(lines[0], patternFirstLine);

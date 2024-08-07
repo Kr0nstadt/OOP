@@ -7,6 +7,6 @@ class MainClass
         Field field = new Field();
         Console.WriteLine(field.ToStringCert());
         field.StageField();
-        Console.WriteLine(field.ToString());
+        Console.WriteLine(field.ToStringCert());
     }
 }
