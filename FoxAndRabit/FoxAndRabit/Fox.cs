@@ -41,7 +41,7 @@ namespace FoxAndRabit
                 default:
                     break;
             }
-            x = Math.Abs(NewX); y = Math.Abs(NewY);
+            x = NewX; y = NewY;
             //нужно еще метод в моделе, что б оно их на другую сторону перекидывало если выход за границы
         }
 

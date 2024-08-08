@@ -41,13 +41,16 @@ namespace FoxAndRabit
             string countAnimalse = "";
             for(int i = 0; i < animals.Count; i++)
             {
-                if(animals[i] is Rabbit)
+                if (animals[i].IsAlive)
                 {
-                    rabbit.Add((Rabbit)animals[i]);
-                }
-                else
-                {
-                    fox.Add((Fox)animals[i]);
+                    if (animals[i] is Rabbit)
+                    {
+                        rabbit.Add((Rabbit)animals[i]);
+                    }
+                    else
+                    {
+                        fox.Add((Fox)animals[i]);
+                    }
                 }
             }
             if(fox.Count > 0)
@@ -63,7 +66,7 @@ namespace FoxAndRabit
                     }
                 }
                 Fox AgeFox;
-                if(fox.Count > 1 && rabbit.Count > 0)
+                if(fox.Count > 0 && rabbit.Count > 0)
                 {
                     AgeFox = MaxFox(fox);
 

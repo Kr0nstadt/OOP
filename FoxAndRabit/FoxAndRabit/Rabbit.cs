@@ -42,7 +42,7 @@ namespace FoxAndRabit
                     break;
             }
             Countstability++;
-            x = Math.Abs(NewX); y = Math.Abs(NewY);
+            x = NewX; y = NewY;
             //нужно еще метод в моделе, что б оно их на другую сторону перекидывало если выход за границы
         }
         public override Animals Reproduction()
