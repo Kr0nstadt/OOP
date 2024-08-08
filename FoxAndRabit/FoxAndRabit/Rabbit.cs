@@ -19,9 +19,15 @@ namespace FoxAndRabit
                 life = false;
             }
         }
+        private int Countstability = 0;
         public override void Movement()
         {
             int NewX = 0,NewY = 0;
+            if(stability == Countstability)
+            {
+                this.Derection();
+                Countstability = -1;
+            }
             switch(direction)
             {
                 case 0:
@@ -35,6 +41,7 @@ namespace FoxAndRabit
                 default:
                     break;
             }
+            Countstability++;
             x = Math.Abs(NewX); y = Math.Abs(NewY);
             //нужно еще метод в моделе, что б оно их на другую сторону перекидывало если выход за границы
         }
