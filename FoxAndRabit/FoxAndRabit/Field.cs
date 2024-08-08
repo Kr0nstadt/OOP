@@ -45,7 +45,7 @@ namespace FoxAndRabit
         {
             if(x <= this.m && y <= this.n)
             {
-                return (y - 1) * n + (x - 1);
+                return (y - 1) * m + (x - 1);
             }
             if(x > m)
             {
@@ -75,14 +75,14 @@ namespace FoxAndRabit
                     y = y + this.n;
                 }
             }
-            return (y - 1) * n + (x - 1);
+            return (y - 1) * m + (x - 1);
         }
         private int Coordination(Animals A)
         {
             int y = A.Y, x = A.X;
             if (A.X <= this.m && A.Y <= this.n && A is { X: > 0, Y: > 0 })
             {
-                return (y - 1) * n + (x - 1);
+                return (y - 1) * m + (x - 1);
             }
             if (A.X > this.m)
             {
@@ -112,7 +112,7 @@ namespace FoxAndRabit
                     y = y + this.n;
                 }
             }
-            return (y - 1) * n + (x - 1);
+            return (y - 1) * m + (x - 1);
         }
 
         private void SetAnimalsField(Animals animals)

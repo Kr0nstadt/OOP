@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\oop\\labs\\oop\\foxandrabit\\foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\oop\\labs\\oop\\foxandrabit\\foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\fox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\oop\\labs\\oop\\foxandrabit\\foxandrabit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\oop\\labs\\oop\\foxandrabit\\foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|solutionrelative:foxandrabit\\readfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{53939CE9-80A8-42A6-9AF3-32F0F15335BA}|FoxAndRabit\\FoxAndRabit.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\oop\\labs\\oop\\foxandrabit\\foxandrabit\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Fox.cs",
               "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\Labs\\OOP\\FoxAndRabit\\FoxAndRabit\\Fox.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Fox.cs",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "FoxAndRabit\\Fox.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAewDQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T12:22:53.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T12:22:53.184Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "FoxAndRabit\\Animals.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAASwC8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T04:12:51.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T04:12:51.731Z"
             },
             {
               "$type": "Document",
@@ -76,18 +74,17 @@
               "RelativeToolTip": "FoxAndRabit\\Rabbit.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T04:12:35.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T04:12:35.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ReadFile.cs",
               "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\Labs\\OOP\\FoxAndRabit\\FoxAndRabit\\ReadFile.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\ReadFile.cs",
               "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\Labs\\OOP\\FoxAndRabit\\FoxAndRabit\\ReadFile.cs",
               "RelativeToolTip": "FoxAndRabit\\ReadFile.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBUAAABpAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA6wBUAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:49:11.306Z",
               "EditorCaption": ""
@@ -102,12 +99,11 @@
               "RelativeToolTip": "FoxAndRabit\\Cell.cs",
               "ViewState": "AQIAADoAAAAAAAAAAAAcwD4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T03:46:13.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T03:46:13.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\Labs\\OOP\\FoxAndRabit\\FoxAndRabit\\Program.cs",
               "RelativeDocumentMoniker": "FoxAndRabit\\Program.cs",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "FoxAndRabit\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T03:45:51.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T03:45:51.571Z"
             },
             {
               "$type": "Document",
@@ -126,7 +121,7 @@
               "RelativeDocumentMoniker": "FoxAndRabit\\Field.cs",
               "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\OOP\\Labs\\OOP\\FoxAndRabit\\FoxAndRabit\\Field.cs",
               "RelativeToolTip": "FoxAndRabit\\Field.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAwwJQAAAAkAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T03:45:43.773Z",
               "EditorCaption": ""
