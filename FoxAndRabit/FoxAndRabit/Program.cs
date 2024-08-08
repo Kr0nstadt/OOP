@@ -8,5 +8,7 @@ class MainClass
         Console.WriteLine(field.ToStringCert());
         field.StageField();
         Console.WriteLine(field.ToStringCert());
+        field.StageField();
+        Console.WriteLine(field.ToStringCert());
     }
 }

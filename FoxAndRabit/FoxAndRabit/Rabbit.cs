@@ -35,7 +35,7 @@ namespace FoxAndRabit
                 default:
                     break;
             }
-            x = NewX; y = NewY;
+            x = Math.Abs(NewX); y = Math.Abs(NewY);
             //нужно еще метод в моделе, что б оно их на другую сторону перекидывало если выход за границы
         }
         public override Animals Reproduction()

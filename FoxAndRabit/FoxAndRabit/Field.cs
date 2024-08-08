@@ -65,19 +65,19 @@ namespace FoxAndRabit
             }
             if(A.X > this.n)
             {
-                while(A.X > this.n)
+                while(x > this.n)
                 {
-                    x = A.X - this.n;
+                    x = Math.Abs(A.X - this.n);
                 }
             }
             if(A.Y > this.m)
             {
-                while(A.Y > this.m)
+                while(y > this.m)
                 {
-                    x = A.Y - this.m;
+                    y = Math.Abs(A.Y - this.m);
                 }
             }
-            return (y - 1) * n + (x - 1);
+            return Math.Abs(y - 1) * n + Math.Abs(x - 1);
         }
 
         private void SetAnimalsField(Animals animals)
@@ -104,7 +104,7 @@ namespace FoxAndRabit
             {
                 foreach (Animals animal in cell.list)
                 {
-                    int index = Coordination(animal);
+                    int index = Coordination(animal);//
                     cells[index].SetAnimals(animal);
                 }
             }
@@ -119,7 +119,7 @@ namespace FoxAndRabit
             {
                 for(int j = 0; j < m; j++)
                 {
-                    int index = Coordination(i, j);
+                    int index = Coordination(j, i);
                     txt += field[index].CountAnimalse;
                 }
                 txt += "\n";
