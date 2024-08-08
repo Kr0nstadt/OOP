@@ -43,29 +43,29 @@ namespace FoxAndRabit
         }
         private int Coordination(int x, int y)
         {
-            if(x <= this.n && y <= this.m)
+            if(x <= this.m && y <= this.n)
             {
                 return (y - 1) * n + (x - 1);
             }
-            if(x > n)
+            if(x > m)
             {
-                while (x > this.n)
+                while (x > this.m)
                 {
-                    x = x - this.n;
+                    x = x - this.m;
                 }
             }
             else if (x <= 0)
             {
                 while (x <= 0)
                 {
-                    x = x + this.n;
+                    x = x + this.m;
                 }
             }
             if (y > m)
             {
-                while (y > this.m)
+                while (y > this.n)
                 {
-                    y = y - this.m;
+                    y = y - this.n;
                 }
             }
             else if (y <= 0)
@@ -80,36 +80,36 @@ namespace FoxAndRabit
         private int Coordination(Animals A)
         {
             int y = A.Y, x = A.X;
-            if (A.X <= this.n && A.Y <= this.m && A is { X: > 0, Y: > 0 })
+            if (A.X <= this.m && A.Y <= this.n && A is { X: > 0, Y: > 0 })
             {
                 return (y - 1) * n + (x - 1);
             }
-            if (A.X > this.n)
+            if (A.X > this.m)
             {
-                while (x > this.n)
+                while (x > this.m)
                 {
-                    x = x - this.n;
+                    x = x - this.m;
                 }
             }
             else if (A.X <= 0)
             {
                 while (x <= 0)
                 {
-                    x = x + this.n;
+                    x = x + this.m;
                 }
             }
-            if (A.Y > this.m)
+            if (A.Y > this.n)
             {
-                while (y > this.m)
+                while (y > this.n)
                 {
-                    y = y - this.m;
+                    y = y - this.n;
                 }
             }
             else if (A.Y <= 0)
             {
                 while (y <= 0)
                 {
-                    y = y + this.m;
+                    y = y + this.n;
                 }
             }
             return (y - 1) * n + (x - 1);
@@ -150,9 +150,9 @@ namespace FoxAndRabit
         {
             string txt = "";
 
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < n; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < m; j++)
                 {
                     int index = Coordination(j + 1, i + 1);
                     txt += field[index].CountAnimalse;
