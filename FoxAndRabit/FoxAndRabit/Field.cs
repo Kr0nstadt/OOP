@@ -80,36 +80,36 @@ namespace FoxAndRabit
         private int Coordination(Animals A)
         {
             int y = A.Y, x = A.X;
-            if(A.X <= this.n &&  A.Y <= this.m && A is { X: > 0, Y: > 0 })
+            if (A.X <= this.n && A.Y <= this.m && A is { X: > 0, Y: > 0 })
             {
                 return (y - 1) * n + (x - 1);
             }
-            if(A.X > this.n)
+            if (A.X > this.n)
             {
-                while(x > this.n)
+                while (x > this.n)
                 {
-                    x = Math.Abs(A.X - this.n);
+                    x = x - this.n;
                 }
             }
             else if (A.X <= 0)
             {
                 while (x <= 0)
                 {
-                    x = A.X + this.n;
+                    x = x + this.n;
                 }
             }
             if (A.Y > this.m)
             {
-                while(y > this.m)
+                while (y > this.m)
                 {
-                    y = A.Y - this.m;
+                    y = y - this.m;
                 }
             }
             else if (A.Y <= 0)
             {
                 while (y <= 0)
                 {
-                    y = A.Y + this.n;
+                    y = y + this.m;
                 }
             }
             return (y - 1) * n + (x - 1);
@@ -149,12 +149,12 @@ namespace FoxAndRabit
         public string ToStringCert()
         {
             string txt = "";
-            
-            for(int i = 0; i < n; i++)
+
+            for (int i = 0; i < m; i++)
             {
-                for(int j = 0; j < m; j++)
+                for (int j = 0; j < n; j++)
                 {
-                    int index = Coordination(i + 1, j + 1);
+                    int index = Coordination(j + 1, i + 1);
                     txt += field[index].CountAnimalse;
                 }
                 txt += "\n";
