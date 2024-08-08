@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,24 +45,44 @@ namespace FoxAndRabit
         {
             if(x <= this.n && y <= this.m)
             {
-                return y * n + x;
+                return (y - 1) * n + (x - 1);
             }
             if(x > n)
             {
-                x = x - n;
+                while (x > this.n)
+                {
+                    x = x - this.n;
+                }
             }
-            if(y > m)
+            else if (x <= 0)
             {
-                y = y - m;
+                while (x <= 0)
+                {
+                    x = x + this.n;
+                }
+            }
+            if (y > m)
+            {
+                while (y > this.m)
+                {
+                    y = y - this.m;
+                }
+            }
+            else if (y <= 0)
+            {
+                while (y <= 0)
+                {
+                    y = y + this.n;
+                }
             }
             return (y - 1) * n + (x - 1);
         }
         private int Coordination(Animals A)
         {
-            int y = 0, x = 0;
-            if(A.X <= this.n &&  A.Y <= this.m)
+            int y = A.Y, x = A.X;
+            if(A.X <= this.n &&  A.Y <= this.m && A is { X: > 0, Y: > 0 })
             {
-                return A.Y * n + A.X;
+                return (y - 1) * n + (x - 1);
             }
             if(A.X > this.n)
             {
@@ -70,14 +91,28 @@ namespace FoxAndRabit
                     x = Math.Abs(A.X - this.n);
                 }
             }
-            if(A.Y > this.m)
+            else if (A.X <= 0)
+            {
+                while (x <= 0)
+                {
+                    x = A.X + this.n;
+                }
+            }
+            if (A.Y > this.m)
             {
                 while(y > this.m)
                 {
-                    y = Math.Abs(A.Y - this.m);
+                    y = A.Y - this.m;
                 }
             }
-            return Math.Abs(y - 1) * n + Math.Abs(x - 1);
+            else if (A.Y <= 0)
+            {
+                while (y <= 0)
+                {
+                    y = A.Y + this.n;
+                }
+            }
+            return (y - 1) * n + (x - 1);
         }
 
         private void SetAnimalsField(Animals animals)
@@ -119,7 +154,7 @@ namespace FoxAndRabit
             {
                 for(int j = 0; j < m; j++)
                 {
-                    int index = Coordination(j, i);
+                    int index = Coordination(i + 1, j + 1);
                     txt += field[index].CountAnimalse;
                 }
                 txt += "\n";
