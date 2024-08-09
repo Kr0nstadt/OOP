@@ -9,6 +9,9 @@ namespace FoxAndRabit
     public class Cell
     {
         private List<Animals> animals;
+        private string _actions = "";
+
+        public string Actions => _actions;
         public List<Animals> list => animals;
 
         public string CountAnimalse => Counter();
@@ -62,7 +65,8 @@ namespace FoxAndRabit
                     if (!fox[i].IsAlive)
                     {
                         RemoveAnimals(fox[i]);
-                        fox.Remove(fox[i]); 
+                        fox.Remove(fox[i]);
+                        _actions += $"Лиса померла\n";
                     }
                 }
                 Fox AgeFox;
@@ -73,10 +77,12 @@ namespace FoxAndRabit
                     for(int i = 0;i < rabbit.Count; i++)
                     {
                         animals.Remove(rabbit[i]);
+                        _actions += $"Зайку съели, гады, ироды\n";
                         AgeFox.Eat();
                         if(AgeFox.EatCount == 2)
                         {
                             AgeFox.EatCount = 0;
+                            _actions += $"Лиса наелась и родила\n";
                             animals.Add(AgeFox.Reproduction());
                         }
                     }
@@ -90,10 +96,12 @@ namespace FoxAndRabit
                     rabbit[i].Movement();
                     if (!rabbit[i].IsAlive)
                     {
+                        _actions += $"Зайцик помер\n";
                         RemoveAnimals(rabbit[i]);
                     }
                     else if (rabbit[i].Year == 5 || rabbit[i].Year == 10)
                     {
+                        _actions += $"Зайка плодится\n";
                         SetAnimals(rabbit[i].Reproduction());
                     }
                     rabbit[i].Aging();

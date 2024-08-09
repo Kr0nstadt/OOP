@@ -13,6 +13,7 @@ namespace FoxAndRabit
         private List<Cell> field;
         private int n;
         private int m;
+        private string _actionList;
 
         public List<Cell> Cells => field;
         public Field(int n,int m, List<Animals> animals)
@@ -127,6 +128,7 @@ namespace FoxAndRabit
             for(int i  = 0; i < field.Count; i++)
             {
                 field[i].Iteration();//меняет состояние каждой клетки
+                _actionList += field[i].Actions;
             }
             List<Cell> cells = new List<Cell>();
             
@@ -159,6 +161,8 @@ namespace FoxAndRabit
                 }
                 txt += "\n";
             }
+            txt += "\n" + _actionList;
+            _actionList = "";
             return txt;
         }
 
